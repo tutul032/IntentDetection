@@ -1,5 +1,5 @@
 /*
-Simple intent detection program written by Md. Tutul
+Simple intent detection program written by Md. Tutul using c++
 */
 
 #include <iostream>
