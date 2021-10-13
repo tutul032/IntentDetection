@@ -19,7 +19,7 @@ private:
     string input;
 
     // words that should be mached
-    string word_1[3] = { "today", "morning", "afternoon" };
+    string word_1[3] = { "today", "now", "afternoon" };
     string word_2[3] = { "Paris", "Berlin", "Munich" };
     string word_3[3] = { "fact", "truth", "clue" };
 };
@@ -51,7 +51,7 @@ void intent::intent_detection() {
         }
 
         // condition for intent detection (city weather)
-        if (regex_search(input, weather_city, city)) {
+        if (regex_search(input, weather_city, city) && regex_search(input, weather_today, today)) {
             cout << "Intent: Get City Weather" << '\n';
         }
         // condition for intent detection (fact)
