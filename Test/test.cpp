@@ -1,4 +1,4 @@
-/* simple google test for the intent class*/
+/* simple google test for the intent class */
 #include "pch.h"
 #include "gtest/gtest.h"
 #include "../Intent/intent.h"
