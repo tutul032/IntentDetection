@@ -27,17 +27,6 @@ private:
 
 string intent::intent_detection(string sentence) {
 
-    if (true) { 
-        try
-        {
-
-        }
-        catch (const std::exception&)
-        {
-
-        }
-
-    }
 
     // loop through the words
     for (int i = 0; i < 3; i++) {
