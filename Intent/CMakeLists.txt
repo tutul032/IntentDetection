@@ -1,5 +1,3 @@
 project(Intent)
 cmake_minimum_required(VERSION 3.0)
-
-add_subdirectory(Intent)
-add_subdirectory(Test)
+add_executable(Intent main.cpp)

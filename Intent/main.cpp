@@ -10,9 +10,7 @@ int main()
     // an object of intent class
     intent myintent;
 
-    while (true)
-    {
-        // call the intent method
-        myintent.intent_detection();
-    }
+    // call the intent method
+    myintent.intent_detection("what is the weather Berlin today");
+
 }
