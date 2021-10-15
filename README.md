@@ -7,4 +7,4 @@ Use the following commands to build the application using windows and Cmake:
 4. cmake --build build64 --config Release
  
 # Result
-![image](https://github.com/tutul032/IntentDetection/blob/main/output.jpg)
+![image](https://github.com/tutul032/IntentDetection/blob/main/out.jpg)
